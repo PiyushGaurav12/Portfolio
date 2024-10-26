@@ -9,17 +9,20 @@ const Portfolio = () => {
     {
       id: 1,
       src: carousel2,
-      href: "",
+      href: "https://piyushgaurav.netlify.app/",
+      code:"https://github.com/PiyushGaurav12/DjangoProjects.git",
     },
     {
       id: 2,
       src: carousel1,
       href: "https://piyush-academy.netlify.app/",
+      code:"https://github.com/PiyushGaurav12/DjangoProjects.git",
     },
     {
       id: 3,
       src: carousel2,
       href: "",
+      code:"https://github.com/PiyushGaurav12/DjangoProjects.git",
     },
   ];
   return (
@@ -36,7 +39,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, href }) => (
+          {portfolios.map(({ id, src, href,code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -50,9 +53,11 @@ const Portfolio = () => {
                     Demo
                   </button>
                 </a>
+                <a href={code}>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hove:scalw-105">
                   code
                 </button>
+                </a>
               </div>
             </div>
           ))}
