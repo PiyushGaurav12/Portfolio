@@ -6,6 +6,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Certification from "./components/Certification";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <About/>
      <Portfolio/>
      <Experience/>
+     <Certification/>
      <Contact/>
      <SocialLinks/>
     </>
