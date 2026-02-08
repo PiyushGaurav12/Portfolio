@@ -53,8 +53,6 @@ export default function Navbar() {
       <div className="flex-1 flex items-center">
         <h1 className="font-signatre1 mt-1 px-4 text-3xl"> Piyush </h1>
         <h1 className="font-signatre1 mt-1 text-3xl"> Gaurav </h1>
-        <br />
-        <h1 className="font-signatre1 mt-1 text-3xl"> Gaurav </h1>
       </div>
 
       <div className="hidden md:flex justify-center flex-1">
