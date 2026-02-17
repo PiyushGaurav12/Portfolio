@@ -13,11 +13,7 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Dedicated software developer with a strong focus on Java Development &
-          React application development.Expertise spans across building dynamic,
-          user-friendly interfaces that enhance user experiences. Great
-          problem-solving abilities and commitment to staying updated with the
-          latest industry trends.
+        I am an Electronics and Communication Engineering graduate and currently working as a SAP Developer at Infosys after completing my training at the Mysore Development Center in Mysuru. I have hands-on experience in SAP ABAP along with building web and mobile applications using React, React Native, Java, and Firebase, and working on IoT-based real-world data systems. I am passionate about continuous learning and am currently focused on strengthening my skills in cloud and DevOps to grow into a versatile Software and DevOps Engineer capable of delivering scalable real-world solutions.
         </p>
         <br />
         <p className="text-xl">

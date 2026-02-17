@@ -10,12 +10,12 @@ const Home = () => {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "Full Stack Java Developer",
-        "Full Stack Web Developer",
-        "App Developer",
-        "Figma Designer",
+        "B-Tech Graduate",
+        "SAP S/4 Hana Technical Developer",
+        "AI/Ml Learner",
+        "Canva Designer",
       ],
-      typeSpeed: 50,
+      typeSpeed: 80,
     });
 
     return () => {
@@ -36,11 +36,7 @@ const Home = () => {
             <span ref={el} />
           </div>
           <p className="text-gray-500 py-4 max-w-md ">
-            I specialize in developing responsive applications that deliver an
-            exceptional user experience. With my skills, I can elevate the
-            portfolio of any organization or individual, ensuring both
-            functionality and aesthetics are perfectly aligned to meet your
-            goals
+          I am an Electronics and Communication Engineering graduate and currently working as a SAP Developer at Infosys after completing my training at the Mysore Development Center in Mysuru. I have hands-on experience in SAP ABAP along with building web and mobile applications using React, React Native, Java, and Firebase, and working on IoT-based real-world data systems. I am passionate about continuous learning and am currently focused on strengthening my skills in cloud and DevOps to grow into a versatile Software and DevOps Engineer capable of delivering scalable real-world solutions.
           </p>
 
           <div>
@@ -61,7 +57,7 @@ const Home = () => {
 
         <div className=" mx-5 md:mx-20  ">
           <img
-            src="./assets/heroimage.png"
+            src="./assets/myportfoliopic.jpeg"
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full md:h-80 "
           />
